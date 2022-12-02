@@ -11,8 +11,8 @@ def main():
                 index += 1
 
         calories.sort()
-        print(calories[-1]) # Part 1
-        print(calories[-1] + calories[-2] + calories[-3]) # Part 2
+        print(calories[-1])                                 # Part 1
+        print(sum(calories[-3:]))   # Part 2
 
 
 if __name__ == '__main__':
